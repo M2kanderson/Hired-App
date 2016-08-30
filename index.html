@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/main.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="./css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="./css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <title>Hired US Salaries Report</title>
+</head>
+<body>
+  <header>
+    <h1 class="header-icon">Hired</h1>
+    <i class="fa fa-bars fa-3x menu-icon" aria-hidden="true"></i>
+    <div class="menu">
+      <div class="menu-nav">
+        <h3 class="menu-header">Menu</h3>
+        <ul class="menu-items">
+          <li class="salary-cost-menu-item">Salary and Cost of Living</li>
+          <li class="start-career-menu-item">Starting Career</li>
+          <li class="transplants-locals-menu-item">Transplants vs. Locals</li>
+          <li class="office-location-menu-item">Best Office Location</li>
+          <li class="salary-size-menu-item">Company Size vs. Salary</li>
+          <li class="methodology-menu-item">Methodology</li>
+          <li class="about-menu-item">About Hired</li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+  <div class="main">
+    <div class="articles">
+      <section class="article-section">
+        <article class="">
+          <h2 class="section-header">Hired State of US Salaries</h1>
+          <p>Hired, the company on a mission to get everyone a job they love, has tapped into its data to reveal insights on software engineers’ salaries and the hiring market more generally. Because Hired facilitates the job searching process from the initial interview request all the way to the  nal job offer, we have unprecedented visibility into salaries across a variety of positions and companies. Most of the tools available to companies and job seekers are  awed and inaccurate. Salary calculators don’t account for company size, years of candidate experience or location, while many job sites are based on anonymous, self-reported data which can vary widely in accuracy. Hired’s data, on the other hand, is based on actual job offers made to real people.
+        Our inaugural State of Salaries report is part of a larger effort to bring more transparency to the hiring process. We want to empower candidates to understand their market value based on their skills and experience so that they can approach the job searching process armed with information. We also want to help companies recruit and hire with insight. We believe this transparency bene ts everyone, so that individuals can  nd jobs they love and companies can attract the individuals who will drive their businesses forward.</p>
+        </article>
+      </section>
+
+      <section id="salary-cost" class="article-section">
+        <article class="left-article">
+          <h2 class="section-header">Where does your software engineering paycheck go the furthest?</h2>
+          <p>San Francisco is infamous for high salaries and even higher rents. While San Francisco salaries are huge - $132K on average for software engineers - adjusting for cost of living paints a different picture. We used a standardized cost of living calculator to show how average salaries in each city would compare to San Francisco.
+        For example, an engineer in Austin making $110,000 would need to make $195,000 in San Francisco to maintain the same quality of life.
+        While it’s easy for job seekers to get stars in their eyes over the salaries in San Francisco, when you adjust for cost of living, an engineer’s salary goes further in every city in our analysis with the exception of New York.</p>
+        </article>
+        <section class="figure-section">
+          <figure>
+            <img class="image" src="./images/avg-eng-salary-table.png" alt="map of average software engineering salaries">
+          </figure>
+          <figure>
+            <img class="image" src="./images/average-eng.jpg" alt="map of average software engineering salaries">
+          </figure>
+        </section>
+      </section>
+
+      <section id="start-career" class="article-section">
+        <article class="left-article">
+          <h2 class="section-header">Starting a Career? Do it in San Francisco.</h2>
+          <p>Forgetting cost-of-living adjustments for a moment, our data indicates that there are advantages to starting your career in San Francisco. Candidates leaving the Bay Area command higher offers than candidates from any other city in our analysis.</p>
+          <br>
+          <p class="bold">Bottom line: No matter where you want to work, engineers that start their careers in San Francisco have a higher earning potential once they move to other job markets.</p>
+        </article>
+        <section class="figure-section">
+          <figure>
+            <img class="image" src="./images/average-relo.jpg" alt="Map of average offers to candidates relocating from San Francisco">
+          </figure>
+        </section>
+      </section>
+
+      <section id="transplants-locals" class="column-section">
+        <article class="top-article">
+          <h2 class="section-header">Transplants vs. Locals: How do salary offers compare?</h2>
+          <p>In most cities, companies offer higher salaries to candidates who are relocating from another market. The only exception is San Francisco, where local candidates command higher salaries than those relocating from outside the Bay Area.</p>
+        </article>
+        <figure>
+          <img class="image" src="./images/relative-salaries.png" alt="Transplant versus local salaries">
+        </figure>
+      </section>
+
+      <section id="office-location" class="article-section">
+        <article class="left-article">
+          <h2 class="section-header">Starting a new office? Theses cities give you the most engineering bang for your buck</h2>
+          <p>While job seekers are particularly interested in their potential salaries, employers can use average salary data to scale their teams. If you’ve got a $1M annual engineering budget, you can hire approximately 10 engineers in Atlanta, compared to 9 in Boston or just 8 in San Francisco.</p>
+        </article>
+        <section class="figure-section left-border">
+          <figure>
+            <img class="image" src="./images/hirable-engineers.png" alt="The number of engineers that can be hired in various lcoations with a $1M budget.">
+          </figure>
+        </section>
+
+      </section>
+
+      <section id="salary-size" class="column-section">
+        <article class="top-article">
+          <h2 class="section-header">Mid-sized companies offer highest salaries</h2>
+          <p>Our data shows that salary and number of employees are positively correlated until we reach the 201-500 employee mark, and then the numbers start to go back down. One possible reason for this is the availability of salary alternatives as part of an overall compensation package. For example, companies with less than 200 people are usually in the series b or below stage, and can offer more equity, whereas many companies with more than 500 people are publicly traded and can offer stock packages. Those in the middle have less equity to give and typically aren’t publicly traded, so higher salaries may be a way to keep offers competitive.</p>
+        </article>
+        <img class="image" src="./images/company_size_vs_salary.png" alt="The average salary at companies based on company size">
+      </section>
+
+      <section id="methodology" class="column-section">
+        <article class="">
+          <h2 class="section-header">Methodology</h2>
+          <p>This report is based on proprietary information gathered and analyzed by Hired’s product data science team. For the purpose of this report, we focused on software engineers in 11 cities. The salaries included re ect more than 80,000 interview requests and job offers from the past year facilitated through our marketplace of more than 3,000 participating companies and 10,000 job seekers.</p>
+        </article>
+      </section>
+
+      <section id="about" class="column-section">
+        <article class="">
+          <h2 class="section-header">About Hired</h2>
+          <p>Hired is on a mission to get everyone a job they love. Starting with in-demand tech and sales roles, we’ve built a marketplace that brings together highly quali ed individuals with the companies who want to hire them. Users on the Hired platform receive objective guidance throughout the interview process from a dedicated Talent Advocate, as well as the ability to compare new opportunities side by side so they can make their next career move with con dence. Employers get access to a hand-picked pool of candidates who are interested in new roles, as well as unmatched transparency into competing offers so they can recruit and hire with insight. The end result is an ef cient, effective and enjoyable experience that’s far faster than traditional methods. Hired is headquartered in San Francisco, with of ces in nearly a dozen cities in North America and Europe and plans to expand to a variety of industries and job categories.</p>
+        </article>
+      </section>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
