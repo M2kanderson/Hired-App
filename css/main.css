@@ -37,6 +37,7 @@ body{
 
 
 header{
+  background: #575B6B;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -45,14 +46,15 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  background: white;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 
 .header-icon{
   font-size: 24px;
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 70px;
+  letter-spacing: 5px;
+  color: white;
 }
 
 .menu-icon{
